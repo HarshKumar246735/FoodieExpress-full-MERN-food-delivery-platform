@@ -1,0 +1,19 @@
+/* SectionHeader, PromoBanner, NewsletterForm */
+.sec-head { display: flex; align-items: end; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
+.sec-head__title { margin: 0; }
+.sec-head__sub { margin: 4px 0 0; }
+.sec-head__link { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; color: var(--brand-dark); white-space: nowrap; }
+.sec-head__link:hover { text-decoration: underline; }
+
+.promo { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 14px; padding: 16px 18px; background: var(--white); border: 1.5px dashed var(--brand); border-radius: 18px 4px 18px 4px; min-width: 300px; }
+.promo__icon { width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; background: var(--brand-soft); color: var(--brand-dark); }
+.promo__body { display: grid; gap: 2px; min-width: 0; }
+.promo__deal { font-family: var(--font-display); font-size: 1.15rem; }
+.promo__desc { font-size: 0.86rem; }
+.promo__code { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 8px; border: 1.5px solid var(--ink); background: var(--ink); color: var(--white); font-weight: 700; letter-spacing: 0.04em; cursor: pointer; }
+.promo__code:hover { background: var(--brand-dark); border-color: var(--brand-dark); }
+
+.nl-form { display: flex; flex-wrap: wrap; gap: 10px; }
+.nl-form .input { flex: 1 1 220px; }
+.nl-form__error { flex-basis: 100%; margin: 0; }
+@media (max-width: 520px) { .promo { grid-template-columns: auto 1fr; } .promo__code { grid-column: 1 / -1; justify-content: center; } }

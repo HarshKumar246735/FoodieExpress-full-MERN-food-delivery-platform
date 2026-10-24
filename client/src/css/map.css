@@ -1,0 +1,16 @@
+.rmap { margin: 0; }
+.rmap__canvas { width: 100%; border-radius: var(--r-md); border: 1px solid var(--line); overflow: hidden; z-index: 0; }
+.rmap__caption { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; padding: 10px 2px 0; font-size: 0.85rem; }
+.rmap__legend { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; }
+.rmap__note { flex-basis: 100%; }
+.rmap-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.rmap-dot--rest { background: #201c19; }
+.rmap-dot--drop { background: #1f9d55; }
+.rmap-dot--rider { background: #2563c9; }
+.rmap-dot--sim { background: #c27a00; }
+.rmap-pin { width: 34px; height: 34px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); display: grid; place-items: center; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); border: 2px solid #fff; }
+.rmap-pin span { transform: rotate(45deg); color: #fff; font-weight: 800; font-size: 0.8rem; }
+.rmap-pin--rest { background: #201c19; }
+.rmap-pin--drop { background: #1f9d55; }
+.rmap-pin--rider { background: #2563c9; }
+.rmap-pin--sim { background: #c27a00; }

@@ -1,0 +1,21 @@
+/* Admin dashboard (part A). Builds on css/dashboard.css */
+.adm-search { position: relative; max-width: 420px; }
+.adm-search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--ink-3); pointer-events: none; }
+.adm-search .input { width: 100%; padding-left: 36px; }
+.adm-cap { text-transform: capitalize; }
+.adm-mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.8rem; word-break: break-all; }
+.adm-reason { font-size: 0.8rem; max-width: 220px; }
+.adm-danger { color: var(--red); border-color: var(--red-soft); }
+.adm-danger:hover:not(:disabled) { border-color: var(--red); }
+.adm-date .input { min-width: 140px; }
+.adm-detail { display: grid; gap: 14px; }
+.adm-h4 { margin: 4px 0 0; font-size: 1rem; }
+.adm-ticket { max-width: 340px; margin-left: auto; }
+.adm-history { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.adm-history li { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.table-wrap .table td, .table-wrap .table th { white-space: nowrap; }
+.table-wrap .table td:first-child { white-space: normal; min-width: 150px; }
+@media (max-width: 560px) {
+  .toolbar .select, .toolbar .input { width: 100%; }
+  .adm-ticket { max-width: none; }
+}

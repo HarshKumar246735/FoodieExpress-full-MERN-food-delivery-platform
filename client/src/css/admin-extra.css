@@ -1,0 +1,21 @@
+/* Admin part B: categories, coupons, reviews, complaints, transactions, audit */
+.ax-cell-main { display: grid; gap: 2px; min-width: 0; }
+.ax-cell-main small { color: var(--ink-3); }
+.ax-clip { max-width: 360px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.ax-cat { display: flex; align-items: center; gap: 12px; }
+.ax-cat .thumb { background: var(--paper-2); }
+.ax-mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.82rem; word-break: break-all; }
+.ax-code { display: inline-block; padding: 3px 10px; border-radius: 8px; border: 1.5px dashed var(--brand); background: var(--brand-soft); color: var(--brand-dark); font-weight: 800; letter-spacing: 0.04em; }
+.ax-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 14px; }
+.ax-form-grid .full { grid-column: 1 / -1; }
+.ax-stars { display: inline-flex; align-items: center; gap: 4px; font-weight: 700; }
+.ax-quote { margin: 0; padding: 12px 14px; background: var(--paper); border-left: 4px solid var(--brand); border-radius: 0 var(--r-md) var(--r-md) 0; white-space: pre-wrap; word-break: break-word; }
+.ax-meta { margin: 0; max-width: 340px; max-height: 96px; overflow: auto; padding: 6px 8px; background: var(--paper); border-radius: 8px; font-size: 0.78rem; white-space: pre-wrap; word-break: break-word; }
+.ax-sum { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 12px 0 0; font-size: 0.9rem; }
+.ax-sum strong { font-family: var(--font-display); }
+.ax-tag { display: inline-flex; align-items: center; gap: 4px; padding: 2px 9px; border-radius: 999px; font-size: 0.74rem; font-weight: 700; }
+.ax-tag--demo { background: var(--amber-soft); color: var(--amber); }
+.ax-tag--rzp { background: var(--blue-soft); color: var(--blue); }
+.ax-tag--cod { background: var(--paper-2); color: var(--ink-2); }
+.ax-action { display: inline-block; padding: 2px 9px; border-radius: 6px; background: var(--violet-soft); color: var(--violet); font-weight: 600; font-size: 0.8rem; }
+@media (max-width: 600px) { .ax-form-grid { grid-template-columns: 1fr; } .ax-clip { max-width: 220px; } }

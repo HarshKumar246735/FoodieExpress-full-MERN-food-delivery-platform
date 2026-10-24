@@ -1,0 +1,6 @@
+{
+  "_readme": "Manual image overrides. Add \"<food-or-restaurant-or-category slug>\": \"https://...jpg\" (or {\"url\":\"...\",\"credit\":\"Photographer / source\"}). Overrides win over every API. Keys starting with _ are ignored.",
+  "foods": {},
+  "restaurants": {},
+  "categories": {}
+}

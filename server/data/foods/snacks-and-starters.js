@@ -1,0 +1,32 @@
+'use strict';
+// [name, price, discountedPrice(0=none), veg 'V'|'N', prepMin, restaurantKey, description, ingredients]
+const TJ = 'tandoori-junction', SF = 'street-food-hub', GH = 'grill-house', UC = 'urban-cafe', SG = 'spice-garden';
+module.exports = [
+  ['Paneer Tikka', 289, 0, 'V', 20, TJ, 'Charcoal-grilled paneer cubes marinated in yoghurt, ajwain and kashmiri chilli.', 'paneer, yoghurt, capsicum, onion, kashmiri chilli'],
+  ['Hara Bhara Kebab', 229, 0, 'V', 20, TJ, 'Spinach, peas and potato patties pan-seared until crisp.', 'spinach, green peas, potato, cashew, spices'],
+  ['Chicken Tikka', 329, 279, 'N', 25, TJ, 'Boneless chicken marinated overnight and grilled in the tandoor.', 'chicken, yoghurt, ginger-garlic paste, tandoori masala'],
+  ['Chicken Seekh Kebab', 349, 0, 'N', 25, TJ, 'Minced chicken with herbs, skewered and charred over coals.', 'chicken mince, coriander, green chilli, spices'],
+  ['Veg Seekh Kebab', 249, 0, 'V', 22, TJ, 'Spiced vegetable and paneer mince grilled on skewers.', 'paneer, carrot, beans, potato, spices'],
+  ['Malai Chicken Tikka', 359, 0, 'N', 25, TJ, 'Creamy, mildly spiced chicken tikka with cheese and cardamom.', 'chicken, cream, cheese, cardamom, white pepper'],
+  ['Tandoori Mushroom', 239, 0, 'V', 20, TJ, 'Button mushrooms in a smoky tandoori marinade.', 'button mushroom, yoghurt, tandoori masala, lemon'],
+  ['Paneer Pakora', 169, 0, 'V', 12, SG, 'Besan-battered paneer fritters served with mint chutney.', 'paneer, gram flour, ajwain, mint chutney'],
+  ['Samosa Chaat', 99, 0, 'V', 10, SF, 'Crushed samosas topped with chole, yoghurt, tamarind and sev.', 'samosa, chickpeas, yoghurt, tamarind chutney, sev'],
+  ['Pani Puri', 79, 0, 'V', 8, SF, 'Crisp puris filled with spiced potato and tangy mint water.', 'semolina puri, potato, chickpeas, mint water, tamarind'],
+  ['Pav Bhaji', 149, 0, 'V', 15, SF, 'Buttery mashed vegetable bhaji with toasted pav.', 'potato, cauliflower, peas, tomato, butter, pav'],
+  ['Vada Pav', 59, 0, 'V', 8, SF, 'Mumbai-style spicy potato fritter in a soft bun with garlic chutney.', 'potato, gram flour, pav, garlic chutney, green chilli'],
+  ['Dahi Puri', 89, 0, 'V', 10, SF, 'Puris topped with sweet yoghurt, chutneys and sev.', 'puri, yoghurt, tamarind chutney, mint chutney, sev'],
+  ['Aloo Tikki Chaat', 99, 0, 'V', 10, SF, 'Crisp potato patties with chole, curd and chutneys.', 'potato, chickpeas, yoghurt, chutneys, spices'],
+  ['Bhel Puri', 79, 0, 'V', 8, SF, 'Puffed rice tossed with onion, tomato, sev and tangy chutney.', 'puffed rice, onion, tomato, sev, tamarind chutney'],
+  ['Crispy Corn', 149, 0, 'V', 12, SF, 'Golden fried sweet corn tossed with pepper and spices.', 'sweet corn, corn flour, black pepper, chaat masala'],
+  ['Veg Spring Rolls', 159, 0, 'V', 14, SF, 'Crunchy rolls stuffed with cabbage, carrot and noodles.', 'spring roll sheet, cabbage, carrot, noodles, soy sauce'],
+  ['Masala French Fries', 119, 0, 'V', 12, UC, 'Skin-on fries dusted with house masala.', 'potato, chaat masala, chilli flakes, salt'],
+  ['Peri Peri Fries', 129, 0, 'V', 12, UC, 'Crisp fries with a fiery peri peri seasoning and dip.', 'potato, peri peri seasoning, garlic mayo'],
+  ['Cheese Loaded Nachos', 189, 149, 'V', 12, UC, 'Tortilla chips with melted cheese, salsa, jalapeno and sour cream.', 'tortilla chips, cheddar, salsa, jalapeno, sour cream'],
+  ['Cheese Garlic Bread', 139, 0, 'V', 12, UC, 'Toasted baguette with garlic butter and molten cheese.', 'baguette, garlic butter, mozzarella, oregano'],
+  ['Chilli Cheese Toast', 119, 0, 'V', 10, UC, 'Grilled bread topped with cheese, green chilli and onion.', 'bread, cheddar, green chilli, onion, butter'],
+  ['Onion Rings', 129, 0, 'V', 12, GH, 'Thick-cut onion rings in a crunchy beer-style batter.', 'onion, flour batter, paprika, dip'],
+  ['Mozzarella Sticks', 179, 0, 'V', 12, GH, 'Breaded mozzarella fingers with marinara dip.', 'mozzarella, breadcrumbs, marinara sauce'],
+  ['Chicken Popcorn', 199, 0, 'N', 14, GH, 'Bite-sized crispy chicken pieces with a smoky dip.', 'chicken, breadcrumbs, paprika, smoky mayo'],
+  ['Buffalo Chicken Wings', 289, 249, 'N', 20, GH, 'Crispy wings tossed in tangy buffalo sauce with a ranch dip.', 'chicken wings, buffalo sauce, butter, ranch'],
+  ['Fish Fingers', 269, 0, 'N', 18, GH, 'Golden crumb-coated fish strips with tartare sauce.', 'basa fish, breadcrumbs, tartare sauce, lemon'],
+];

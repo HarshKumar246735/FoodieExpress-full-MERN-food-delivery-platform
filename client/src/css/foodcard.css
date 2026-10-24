@@ -1,0 +1,27 @@
+.fc { background: var(--white); border-radius: 20px 20px 20px 6px; border: 1px solid var(--line); overflow: hidden; display: flex; flex-direction: column; transition: box-shadow 0.18s, transform 0.18s; height: 100%; }
+.fc:hover { box-shadow: var(--shadow-2); transform: translateY(-2px); }
+.fc--off { opacity: 0.8; }
+.fc__media { position: relative; display: block; }
+.fc__media .fimg img { transition: transform 0.35s ease; }
+.fc:hover .fc__media .fimg img { transform: scale(1.04); }
+.fc__tags { position: absolute; left: 10px; top: 10px; display: flex; gap: 6px; flex-wrap: wrap; }
+.fc__tag { display: inline-flex; align-items: center; gap: 4px; padding: 3px 9px; border-radius: 999px; font-size: 0.74rem; font-weight: 700; background: var(--white); color: var(--ink); box-shadow: var(--shadow-1); }
+.fc__tag--deal { background: var(--coral); color: var(--white); }
+.fc__tag--best { color: var(--brand-dark); }
+.fc__sold { position: absolute; inset: 0; display: grid; place-items: center; background: rgba(255, 255, 255, 0.72); font-weight: 700; color: var(--ink-2); }
+.fc__body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.fc__title-row { display: flex; align-items: center; gap: 8px; }
+.fc__title { font-size: 1.04rem; margin: 0; line-height: 1.25; }
+.fc__title a:hover { color: var(--brand-dark); }
+.fc__rest { font-size: 0.86rem; }
+.fc__rest:hover { text-decoration: underline; }
+.fc__meta { display: flex; align-items: center; justify-content: space-between; font-size: 0.86rem; }
+.fc__time { display: inline-flex; align-items: center; gap: 4px; }
+.fc__foot { margin-top: auto; padding-top: 8px; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.fc__price { display: flex; align-items: baseline; gap: 8px; }
+.fc__price strong { font-family: var(--font-display); font-size: 1.2rem; }
+.fc-stepper { display: inline-flex; align-items: center; border-radius: 999px; background: var(--brand); color: var(--white); overflow: hidden; }
+.fc-stepper button { background: transparent; border: 0; color: inherit; width: 34px; height: 34px; display: grid; place-items: center; cursor: pointer; }
+.fc-stepper button:hover:not(:disabled) { background: var(--brand-dark); }
+.fc-stepper button:disabled { opacity: 0.5; cursor: not-allowed; }
+.fc-stepper span { min-width: 26px; text-align: center; font-weight: 700; }

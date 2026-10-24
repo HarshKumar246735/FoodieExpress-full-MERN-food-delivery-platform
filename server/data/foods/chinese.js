@@ -1,0 +1,27 @@
+'use strict';
+const WR = 'wok-and-roll', NB = 'noodle-box', SF = 'street-food-hub';
+module.exports = [
+  ['Veg Hakka Noodles', 159, 0, 'V', 18, WR, 'Wok-tossed noodles with crunchy vegetables and soy.', 'noodles, cabbage, carrot, capsicum, soy sauce'],
+  ['Chicken Hakka Noodles', 189, 0, 'N', 20, WR, 'Hakka noodles stir-fried with shredded chicken.', 'noodles, chicken, cabbage, spring onion, soy sauce'],
+  ['Veg Fried Rice', 149, 0, 'V', 18, WR, 'Smoky wok fried rice with vegetables.', 'rice, carrot, beans, cabbage, soy sauce'],
+  ['Chicken Fried Rice', 179, 0, 'N', 20, WR, 'Fried rice with chicken and spring onion.', 'rice, chicken, spring onion, soy sauce'],
+  ['Egg Fried Rice', 159, 0, 'N', 18, WR, 'Scrambled egg tossed through wok-fried rice.', 'rice, egg, spring onion, soy sauce'],
+  ['Veg Manchurian Dry', 169, 0, 'V', 20, WR, 'Crisp vegetable balls in a garlicky soy glaze.', 'cabbage, carrot, garlic, soy sauce, corn flour'],
+  ['Veg Manchurian Gravy', 179, 149, 'V', 22, WR, 'Vegetable dumplings in a thick manchurian sauce.', 'vegetable balls, garlic, ginger, soy sauce'],
+  ['Chicken Manchurian', 209, 0, 'N', 22, WR, 'Fried chicken tossed in spicy manchurian sauce.', 'chicken, garlic, ginger, soy sauce, spring onion'],
+  ['Chilli Paneer', 219, 0, 'V', 20, NB, 'Crisp paneer with capsicum and onion in chilli sauce.', 'paneer, capsicum, onion, green chilli, soy sauce'],
+  ['Chilli Chicken', 229, 0, 'N', 22, WR, 'Indo-Chinese chilli chicken with bell peppers.', 'chicken, capsicum, onion, green chilli, soy sauce'],
+  ['Gobi Manchurian', 169, 0, 'V', 20, WR, 'Crispy cauliflower florets in tangy manchurian sauce.', 'cauliflower, corn flour, garlic, soy sauce'],
+  ['Schezwan Noodles', 169, 0, 'V', 18, WR, 'Spicy noodles in fiery schezwan sauce.', 'noodles, schezwan sauce, cabbage, capsicum'],
+  ['Schezwan Fried Rice', 169, 0, 'V', 18, WR, 'Fried rice with a punchy schezwan chilli kick.', 'rice, schezwan sauce, carrot, beans'],
+  ['Schezwan Spring Rolls', 139, 0, 'V', 15, NB, 'Crisp rolls stuffed with seasoned vegetables.', 'spring roll sheet, cabbage, carrot, noodles'],
+  ['Chicken Spring Rolls', 169, 0, 'N', 18, NB, 'Crispy rolls filled with spiced chicken and vegetables.', 'spring roll sheet, chicken, cabbage, spring onion'],
+  ['Hot and Sour Veg Soup', 119, 0, 'V', 12, WR, 'Peppery, tangy soup with vegetables and mushrooms.', 'mushroom, cabbage, carrot, vinegar, white pepper'],
+  ['Sweet Corn Soup', 109, 0, 'V', 12, WR, 'Creamy sweet corn soup with a touch of pepper.', 'sweet corn, corn flour, spring onion, pepper'],
+  ['Chicken Sweet Corn Soup', 129, 0, 'N', 12, WR, 'Sweet corn soup with shredded chicken.', 'sweet corn, chicken, corn flour, spring onion'],
+  ['Veg Momos', 119, 0, 'V', 15, SF, 'Steamed dumplings filled with cabbage and carrot, with red chutney.', 'refined flour, cabbage, carrot, ginger, red chutney'],
+  ['Chicken Momos', 139, 0, 'N', 15, SF, 'Juicy steamed chicken dumplings with spicy chutney.', 'refined flour, chicken, garlic, ginger, red chutney'],
+  ['Triple Schezwan Rice', 219, 0, 'V', 22, WR, 'Rice, noodles and gravy in schezwan sauce.', 'rice, noodles, schezwan sauce, vegetables'],
+  ['Honey Chilli Potato', 159, 0, 'V', 18, SF, 'Crisp potato fingers glazed with honey and chilli.', 'potato, honey, chilli sauce, sesame seeds'],
+  ['Dragon Chicken', 239, 0, 'N', 22, NB, 'Crispy chicken with cashew and dried red chilli.', 'chicken, cashew, dried red chilli, soy sauce'],
+];

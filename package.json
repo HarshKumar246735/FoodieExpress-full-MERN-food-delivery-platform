@@ -1,0 +1,17 @@
+{
+  "name": "foodieexpress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FoodieExpress - premium MERN food delivery platform",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "seed:admin": "npm run seed:admin --prefix server",
+    "images:verify": "npm run images:verify --prefix server",
+    "test": "npm test --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server"
+  }
+}

@@ -1,0 +1,30 @@
+'use strict';
+// [name, price, discountedPrice(0=none), veg 'V'|'N', prepMin, restaurantKey, description, ingredients]
+const SC = 'sweet-cravings', DL = 'dessert-lab', UC = 'urban-cafe';
+module.exports = [
+  ['Gulab Jamun', 99, 0, 'V', 10, SC, 'Soft khoya dumplings soaked in cardamom sugar syrup (2 pieces).', 'khoya, sugar syrup, cardamom, rose water'],
+  ['Rasmalai', 129, 0, 'V', 10, SC, 'Spongy paneer discs in chilled saffron milk, topped with pistachio.', 'paneer, milk, saffron, pistachio, cardamom'],
+  ['Kaju Katli', 249, 0, 'V', 10, SC, 'Silky cashew fudge with a thin silver finish (250 g).', 'cashew, sugar, ghee, cardamom'],
+  ['Jalebi with Rabri', 119, 0, 'V', 12, SC, 'Hot crisp jalebis served with thickened sweet milk.', 'maida batter, sugar syrup, saffron, rabri'],
+  ['Rasgulla', 99, 0, 'V', 10, SC, 'Light, spongy chenna balls in sugar syrup (2 pieces).', 'chenna, sugar syrup, cardamom'],
+  ['Gajar Halwa', 129, 0, 'V', 12, SC, 'Slow-cooked carrot halwa with milk, ghee and nuts.', 'carrot, milk, ghee, cashew, raisins'],
+  ['Moong Dal Halwa', 149, 0, 'V', 14, SC, 'Rich, ghee-roasted moong dal halwa, a winter classic.', 'moong dal, ghee, sugar, almonds, cardamom'],
+  ['Kulfi Falooda', 139, 0, 'V', 10, SC, 'Dense malai kulfi with falooda noodles and rose syrup.', 'milk, kulfi, falooda, rose syrup, basil seeds'],
+  ['Shahi Tukda', 139, 0, 'V', 12, SC, 'Fried bread slices soaked in rabri with saffron and nuts.', 'bread, rabri, saffron, pistachio, ghee'],
+  ['Chocolate Brownie', 119, 0, 'V', 12, DL, 'Fudgy dark chocolate brownie with a crackly top.', 'dark chocolate, butter, flour, cocoa, sugar'],
+  ['Brownie with Ice Cream', 169, 149, 'V', 12, DL, 'Warm brownie topped with a scoop of vanilla ice cream and chocolate sauce.', 'brownie, vanilla ice cream, chocolate sauce'],
+  ['Chocolate Lava Cake', 149, 0, 'V', 14, DL, 'Baked chocolate cake with a molten centre.', 'dark chocolate, butter, eggs, flour'],
+  ['New York Cheesecake', 219, 0, 'V', 10, DL, 'Dense baked cheesecake on a buttery biscuit base.', 'cream cheese, biscuit crumb, butter, vanilla'],
+  ['Blueberry Cheesecake', 239, 199, 'V', 10, DL, 'Creamy cheesecake slice with blueberry compote.', 'cream cheese, blueberry compote, biscuit base'],
+  ['Tiramisu Jar', 199, 0, 'V', 10, DL, 'Coffee-soaked sponge layered with mascarpone cream in a jar.', 'mascarpone, coffee, sponge fingers, cocoa'],
+  ['Red Velvet Pastry', 129, 0, 'V', 10, DL, 'Red velvet sponge with cream cheese frosting.', 'red velvet sponge, cream cheese frosting'],
+  ['Black Forest Pastry', 119, 0, 'V', 10, DL, 'Chocolate sponge layered with whipped cream and cherries.', 'chocolate sponge, whipped cream, cherries'],
+  ['Oreo Mud Jar', 169, 0, 'V', 10, DL, 'Layers of chocolate mousse, Oreo crumb and cream.', 'chocolate mousse, oreo crumb, whipped cream'],
+  ['Vanilla Bean Ice Cream', 99, 0, 'V', 5, DL, 'Two scoops of creamy vanilla bean ice cream.', 'milk, cream, vanilla bean, sugar'],
+  ['Butterscotch Sundae', 159, 0, 'V', 8, DL, 'Butterscotch ice cream with caramel sauce, nuts and wafer.', 'ice cream, butterscotch sauce, praline, wafer'],
+  ['Mango Panna Cotta', 179, 0, 'V', 10, DL, 'Silky vanilla panna cotta with fresh mango coulis.', 'cream, gelatine, mango puree, vanilla'],
+  ['Gulab Jamun Cheesecake', 229, 0, 'V', 10, DL, 'A fusion cheesecake with gulab jamun pieces and rose syrup.', 'cream cheese, gulab jamun, rose syrup, biscuit base'],
+  ['Waffle with Nutella', 189, 0, 'V', 12, UC, 'Belgian waffle with warm hazelnut spread and banana.', 'waffle, hazelnut spread, banana, icing sugar'],
+  ['Banoffee Pie', 199, 0, 'V', 10, UC, 'Banana and toffee on a biscuit base topped with cream.', 'banana, toffee, biscuit base, whipped cream'],
+  ['Apple Crumble', 179, 0, 'V', 14, UC, 'Warm spiced apples under a buttery oat crumble.', 'apple, cinnamon, oats, butter, brown sugar'],
+];

@@ -1,0 +1,30 @@
+'use strict';
+// [name, price, discountedPrice(0=none), veg 'V'|'N', prepMin, restaurantKey, description, ingredients]
+const UC = 'urban-cafe', HH = 'healthy-harvest', SF = 'street-food-hub', SC = 'sweet-cravings', SI = 'south-indian-express';
+module.exports = [
+  ['Cold Coffee', 99, 0, 'V', 6, UC, 'Chilled blended coffee with milk and a scoop of ice cream.', 'coffee, milk, sugar, ice cream'],
+  ['Hazelnut Cold Coffee', 129, 0, 'V', 6, UC, 'Cold coffee with roasted hazelnut syrup and whipped cream.', 'coffee, milk, hazelnut syrup, whipped cream'],
+  ['Cappuccino', 119, 0, 'V', 5, UC, 'Espresso with steamed milk and a thick layer of foam.', 'espresso, steamed milk, milk foam'],
+  ['Caffe Latte', 129, 0, 'V', 5, UC, 'Smooth espresso with silky steamed milk.', 'espresso, steamed milk'],
+  ['Hot Chocolate', 129, 0, 'V', 6, UC, 'Thick Belgian-style hot chocolate with marshmallows.', 'milk, dark chocolate, cocoa, marshmallow'],
+  ['Masala Chai', 59, 0, 'V', 5, UC, 'Strong Assam tea brewed with ginger, cardamom and milk.', 'tea, milk, ginger, cardamom, sugar'],
+  ['Filter Coffee', 69, 0, 'V', 5, SI, 'Traditional South Indian decoction coffee with frothy milk.', 'coffee decoction, milk, sugar'],
+  ['Sweet Lassi', 89, 0, 'V', 5, SF, 'Thick chilled yoghurt lassi topped with malai.', 'yoghurt, sugar, cardamom, malai'],
+  ['Mango Lassi', 109, 0, 'V', 5, SF, 'Alphonso mango blended with creamy yoghurt.', 'mango pulp, yoghurt, sugar'],
+  ['Chocolate Shake', 149, 0, 'V', 6, UC, 'Thick chocolate milkshake with chocolate sauce.', 'milk, chocolate ice cream, chocolate sauce'],
+  ['Oreo Shake', 159, 129, 'V', 6, UC, 'Creamy shake blended with Oreo cookies.', 'milk, vanilla ice cream, oreo cookies'],
+  ['Strawberry Shake', 149, 0, 'V', 6, UC, 'Fresh strawberry shake with a swirl of cream.', 'milk, strawberry, ice cream, sugar'],
+  ['Banana Almond Smoothie', 169, 0, 'V', 6, HH, 'Banana, almond butter and oat milk blended smooth.', 'banana, almond butter, oat milk, honey'],
+  ['Fresh Orange Juice', 99, 0, 'V', 5, HH, 'Freshly squeezed oranges, no added sugar.', 'oranges'],
+  ['Watermelon Juice', 89, 0, 'V', 5, HH, 'Chilled watermelon juice with a hint of mint.', 'watermelon, mint, black salt'],
+  ['Green Detox Juice', 139, 0, 'V', 6, HH, 'Cold-pressed spinach, cucumber, apple and lemon.', 'spinach, cucumber, green apple, lemon, ginger'],
+  ['Carrot Ginger Juice', 129, 0, 'V', 6, HH, 'Cold-pressed carrot with fresh ginger and orange.', 'carrot, ginger, orange'],
+  ['Mint Mojito', 119, 0, 'V', 5, UC, 'Fresh mint, lime and soda over crushed ice.', 'mint, lime, sugar syrup, soda'],
+  ['Blue Lagoon', 129, 0, 'V', 5, UC, 'Citrusy blue curacao mocktail with lemon and soda.', 'blue curacao syrup, lemon, soda, ice'],
+  ['Virgin Pina Colada', 149, 0, 'V', 6, UC, 'Pineapple and coconut cream blended with ice.', 'pineapple, coconut cream, ice'],
+  ['Peach Iced Tea', 109, 0, 'V', 5, UC, 'Black tea shaken with peach syrup and lemon.', 'black tea, peach syrup, lemon, ice'],
+  ['Fresh Lime Soda', 79, 0, 'V', 4, SF, 'Sweet, salted or mixed: lime, soda and ice.', 'lime, soda, sugar, black salt'],
+  ['Jaljeera', 59, 0, 'V', 4, SF, 'Tangy cumin and mint cooler served chilled.', 'cumin, mint, tamarind, black salt, lemon'],
+  ['Rose Milk', 79, 0, 'V', 4, SC, 'Chilled milk with rose syrup and basil seeds.', 'milk, rose syrup, sabja seeds'],
+  ['Thandai', 119, 0, 'V', 6, SC, 'Creamy milk with almonds, fennel, pepper and saffron.', 'milk, almonds, fennel, saffron, poppy seeds'],
+];

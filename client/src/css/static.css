@@ -1,0 +1,4 @@
+.static { max-width: 760px; }
+.static__lead { font-size: 1.15rem; color: var(--ink-2); }
+.static section { margin-top: 28px; }
+.static section p a { color: var(--brand-dark); text-decoration: underline; }

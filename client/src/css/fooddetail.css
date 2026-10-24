@@ -1,0 +1,10 @@
+.crumbs { margin-bottom: 16px; font-size: .9rem; }
+.crumbs a:hover { color: var(--brand-dark); text-decoration: underline; }
+.fd { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+.fd__media { border-radius: var(--r-lg); overflow: hidden; }
+.fd__credit { display: block; margin-top: 6px; }
+.fd__info { display: grid; gap: 12px; }
+.fd__info h1 { margin: 0; font-size: clamp(1.8rem, 3.5vw, 2.6rem); }
+.fd__price { display: flex; align-items: center; gap: 12px; font-size: 1.6rem; }
+.fc-stepper--lg { transform: scale(1.1); transform-origin: left center; }
+@media (max-width: 800px) { .fd { grid-template-columns: 1fr; gap: 20px; } }

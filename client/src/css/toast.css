@@ -1,0 +1,8 @@
+.toast-stack { position: fixed; right: 16px; bottom: 16px; display: grid; gap: 10px; z-index: 1200; width: min(380px, calc(100vw - 32px)); }
+.toast { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border-radius: 14px; background: var(--ink); color: var(--white); box-shadow: var(--shadow-2); animation: toast-in 0.2s ease; }
+.toast--success svg { color: #5fe39a; }
+.toast--error { background: #7f1d1d; }
+.toast--info svg { color: #8ec5ff; }
+.toast span { flex: 1; font-size: 0.93rem; }
+.toast__close { background: transparent; border: 0; color: inherit; opacity: 0.7; cursor: pointer; display: grid; place-items: center; }
+@keyframes toast-in { from { transform: translateY(8px); opacity: 0; } to { transform: none; opacity: 1; } }

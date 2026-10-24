@@ -1,0 +1,25 @@
+'use strict';
+const RB = 'royal-biryani', CC = 'curry-corner', TJ = 'tandoori-junction';
+module.exports = [
+  ['Chicken Biryani', 279, 0, 'N', 35, RB, 'Basmati rice layered with marinated chicken and sealed to cook on dum.', 'basmati rice, chicken, yoghurt, fried onion, saffron'],
+  ['Mutton Biryani', 349, 299, 'N', 45, RB, 'Tender mutton pieces slow-cooked with fragrant rice.', 'basmati rice, mutton, yoghurt, whole spices, mint'],
+  ['Veg Biryani', 219, 0, 'V', 30, RB, 'Garden vegetables and basmati rice cooked together with saffron.', 'basmati rice, mixed vegetables, saffron, fried onion'],
+  ['Paneer Biryani', 249, 0, 'V', 30, RB, 'Spiced paneer cubes layered with long-grain rice.', 'basmati rice, paneer, mint, fried onion, spices'],
+  ['Egg Biryani', 209, 0, 'N', 28, CC, 'Boiled eggs tossed in masala over aromatic rice.', 'basmati rice, boiled egg, onion, spices'],
+  ['Hyderabadi Chicken Dum Biryani', 299, 0, 'N', 40, RB, 'Spicy Hyderabadi style, cooked in a sealed handi.', 'basmati rice, chicken, yoghurt, green chilli, mint'],
+  ['Hyderabadi Veg Dum Biryani', 239, 0, 'V', 35, RB, 'Vegetables in the Hyderabadi dum style with mint and fried onion.', 'basmati rice, vegetables, mint, fried onion'],
+  ['Lucknowi Chicken Biryani', 309, 0, 'N', 40, TJ, 'Mild, aromatic Awadhi-style chicken biryani with kewra.', 'basmati rice, chicken, kewra, cardamom, ghee'],
+  ['Kolkata Chicken Biryani', 289, 0, 'N', 38, RB, 'Lightly spiced with potato and egg, Kolkata style.', 'basmati rice, chicken, potato, egg, saffron'],
+  ['Prawn Biryani', 369, 0, 'N', 40, RB, 'Juicy prawns marinated in coastal spices and layered with rice.', 'basmati rice, prawns, coastal masala, coriander'],
+  ['Fish Biryani', 339, 0, 'N', 38, CC, 'Fish fillets in masala over fragrant rice.', 'basmati rice, fish, masala, mint, lemon'],
+  ['Chicken 65 Biryani', 299, 249, 'N', 35, RB, 'Crispy chicken 65 folded into spicy biryani rice.', 'basmati rice, chicken 65, curry leaf, green chilli'],
+  ['Chicken Tikka Biryani', 319, 0, 'N', 38, TJ, 'Smoky tandoori chicken tikka layered with biryani rice.', 'basmati rice, chicken tikka, mint, fried onion'],
+  ['Mushroom Biryani', 229, 0, 'V', 30, CC, 'Button mushrooms in masala with fragrant basmati.', 'basmati rice, mushroom, mint, fried onion, spices'],
+  ['Soya Chaap Biryani', 229, 0, 'V', 30, TJ, 'Soya chaap in tandoori masala over saffron rice.', 'basmati rice, soya chaap, yoghurt, spices'],
+  ['Mutton Keema Biryani', 369, 0, 'N', 42, RB, 'Minced mutton layered with rice and fried onion.', 'basmati rice, minced mutton, mint, fried onion'],
+  ['Ambur Chicken Biryani', 289, 0, 'N', 38, RB, 'Tamil Nadu style with short-grain seeraga samba rice.', 'seeraga samba rice, chicken, chilli paste, mint'],
+  ['Thalassery Chicken Biryani', 299, 0, 'N', 40, RB, 'Kerala Malabar style, with fine kaima rice and fried onion.', 'kaima rice, chicken, ghee, cashew, raisins'],
+  ['Kashmiri Pulao', 219, 0, 'V', 28, TJ, 'Mildly sweet pulao with dry fruits and saffron.', 'basmati rice, almond, raisin, saffron, ghee'],
+  ['Lamb Dum Biryani Handi', 399, 0, 'N', 50, RB, 'Sealed handi of lamb and rice slow-cooked for hours.', 'basmati rice, lamb, yoghurt, whole spices, saffron'],
+  ['Dum Paneer Tikka Biryani', 269, 0, 'V', 32, TJ, 'Grilled paneer tikka layered in saffron biryani.', 'basmati rice, paneer tikka, mint, saffron'],
+];

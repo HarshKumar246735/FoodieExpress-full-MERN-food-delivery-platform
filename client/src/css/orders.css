@@ -1,0 +1,24 @@
+.ord-list { list-style: none; margin: 16px 0; padding: 0; display: grid; gap: 14px; }
+.ord__top, .ord__bottom { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: center; }
+.ord__items { margin: 10px 0; }
+.tl { list-style: none; margin: 0; padding: 0; }
+.tl__step { position: relative; display: flex; gap: 14px; padding-bottom: 22px; color: var(--ink-3); }
+.tl__step:last-child { padding-bottom: 0; }
+.tl__step::before { content: ''; position: absolute; left: 11px; top: 24px; bottom: 0; width: 2px; background: var(--line); }
+.tl__step:last-child::before { display: none; }
+.tl__step.is-done::before { background: var(--green); }
+.tl__dot { width: 24px; height: 24px; border-radius: 50%; border: 2px solid var(--line); background: #fff; display: grid; place-items: center; flex-shrink: 0; color: #fff; z-index: 1; }
+.tl__step.is-done .tl__dot { background: var(--green); border-color: var(--green); }
+.tl__step.is-done { color: var(--ink); }
+.tl__step.is-current .tl__dot { box-shadow: 0 0 0 5px rgba(31,157,85,.2); animation: pulse 1.6s infinite; }
+.tl__step.is-failed .tl__dot { background: var(--red); border-color: var(--red); }
+.tl__step small { display: block; }
+@keyframes pulse { 50% { box-shadow: 0 0 0 8px rgba(31,157,85,0); } }
+.eta { display: flex; gap: 14px; align-items: center; background: var(--brand-soft); border-color: #ffd9c2; }
+.map-note { margin: 10px 0 0; font-size: .875rem; }
+@media print {
+  .nav, .foot, .no-print, .skip-link, .toast-stack { display: none !important; }
+  .receipt .cart-layout { grid-template-columns: 1fr; }
+  .card, .ticket { box-shadow: none !important; break-inside: avoid; }
+  body { background: #fff; }
+}

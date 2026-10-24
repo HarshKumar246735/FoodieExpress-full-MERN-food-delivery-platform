@@ -1,0 +1,17 @@
+/* Shared by FoodBrowser, Restaurants page */
+.lst__search { display: flex; align-items: center; gap: 10px; padding: 8px 8px 8px 16px; border: 1.5px solid var(--line); border-radius: 999px; background: var(--white); margin-bottom: 24px; max-width: 720px; }
+.lst__search:focus-within { border-color: var(--brand); box-shadow: 0 0 0 3px rgba(255, 106, 26, 0.18); }
+.lst__input { flex: 1; border: 0; outline: 0; background: transparent; min-width: 0; padding: 6px 0; }
+.lst__layout { display: grid; grid-template-columns: 280px 1fr; gap: 28px; align-items: start; }
+.lst__aside { position: sticky; top: calc(var(--nav-h) + 16px); }
+.lst__bar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.lst__count { margin: 0; }
+.lst__filter-btn { display: none; }
+.lst__dim { opacity: 0.55; transition: opacity 0.15s; }
+.lst__main .grid--foods { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+@media (max-width: 900px) {
+  .lst__layout { grid-template-columns: 1fr; }
+  .lst__aside { display: none; position: static; }
+  .lst__aside.is-open { display: block; }
+  .lst__filter-btn { display: inline-flex; }
+}

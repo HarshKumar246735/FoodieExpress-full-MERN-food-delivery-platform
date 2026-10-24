@@ -1,0 +1,26 @@
+'use strict';
+const SG = 'spice-garden', CC = 'curry-corner', TJ = 'tandoori-junction';
+module.exports = [
+  ['Paneer Butter Masala', 249, 0, 'V', 25, SG, 'Soft paneer in a silky tomato-butter gravy.', 'paneer, tomato, butter, cream, kasuri methi'],
+  ['Dal Makhani', 219, 0, 'V', 30, SG, 'Black lentils and kidney beans simmered overnight with butter and cream.', 'black urad dal, rajma, butter, cream, tomato'],
+  ['Butter Chicken', 329, 279, 'N', 30, SG, 'Tandoori chicken in a rich, mildly sweet tomato-butter sauce.', 'chicken, tomato, butter, cream, kasuri methi'],
+  ['Palak Paneer', 239, 0, 'V', 25, CC, 'Paneer cubes in a smooth garlic-spinach gravy.', 'paneer, spinach, garlic, cream'],
+  ['Chole Masala', 189, 0, 'V', 25, CC, 'Punjabi-style chickpeas in a tangy spiced gravy.', 'chickpeas, onion, tomato, chole masala'],
+  ['Kadai Paneer', 259, 0, 'V', 25, SG, 'Paneer tossed with capsicum and freshly ground kadai spices.', 'paneer, capsicum, onion, tomato, coriander seed'],
+  ['Shahi Paneer', 269, 0, 'V', 28, SG, 'Paneer in a mild, creamy cashew and tomato gravy.', 'paneer, cashew, cream, tomato'],
+  ['Malai Kofta', 249, 0, 'V', 28, CC, 'Soft paneer-potato dumplings in a creamy gravy.', 'paneer, potato, cashew, cream, tomato'],
+  ['Dal Tadka', 179, 149, 'V', 22, CC, 'Yellow lentils tempered with garlic, cumin and ghee.', 'toor dal, garlic, cumin, ghee, tomato'],
+  ['Rajma Masala', 189, 0, 'V', 25, CC, 'Kidney beans slow-cooked in a thick onion-tomato gravy.', 'rajma, onion, tomato, ginger, garam masala'],
+  ['Mutton Rogan Josh', 399, 0, 'N', 40, SG, 'Kashmiri-style mutton braised with aromatic spices.', 'mutton, kashmiri chilli, yoghurt, fennel, ginger'],
+  ['Chicken Tikka Masala', 319, 0, 'N', 30, TJ, 'Charred chicken tikka in a spiced tomato-onion masala.', 'chicken tikka, tomato, onion, cream, spices'],
+  ['Aloo Gobi', 169, 0, 'V', 20, CC, 'Dry-style potato and cauliflower with turmeric and cumin.', 'potato, cauliflower, turmeric, cumin'],
+  ['Baingan Bharta', 189, 0, 'V', 25, SG, 'Smoked, mashed aubergine cooked with onion and tomato.', 'roasted brinjal, onion, tomato, green chilli'],
+  ['Mixed Veg Curry', 199, 0, 'V', 22, CC, 'Seasonal vegetables in a home-style onion-tomato gravy.', 'carrot, beans, peas, cauliflower, onion, tomato'],
+  ['Paneer Tikka Masala', 269, 0, 'V', 28, TJ, 'Grilled paneer tikka in a smoky masala gravy.', 'paneer tikka, tomato, onion, capsicum, cream'],
+  ['Kadai Chicken', 329, 0, 'N', 30, SG, 'Chicken cooked with bell pepper and crushed kadai masala.', 'chicken, capsicum, onion, tomato, kadai masala'],
+  ['Egg Curry', 189, 0, 'N', 20, CC, 'Boiled eggs simmered in a spiced onion-tomato gravy.', 'boiled egg, onion, tomato, garam masala'],
+  ['Fish Curry', 349, 0, 'N', 30, CC, 'Fish steaks in a tangy coconut-tamarind curry.', 'fish, coconut, tamarind, curry leaf, chilli'],
+  ['Methi Malai Matar', 239, 0, 'V', 25, SG, 'Green peas and fenugreek leaves in a creamy white gravy.', 'green peas, fenugreek, cream, cashew'],
+  ['Bhindi Masala', 179, 0, 'V', 20, CC, 'Okra stir-fried with onion and dry spices.', 'okra, onion, amchur, cumin'],
+  ['Mutton Keema Matar', 349, 0, 'N', 35, TJ, 'Minced mutton cooked with green peas and spices.', 'minced mutton, green peas, onion, tomato, garam masala'],
+];

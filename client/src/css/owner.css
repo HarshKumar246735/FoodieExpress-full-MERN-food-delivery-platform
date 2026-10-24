@@ -1,0 +1,33 @@
+/* Owner dashboard */
+.own-switch { margin: 0; min-width: 200px; }
+.own-switch .select { padding: 8px 12px; }
+.own-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.own-list li { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); align-items: flex-start; }
+.own-list li:last-child { border-bottom: 0; }
+.own-quote { margin: 4px 0 0; font-size: 0.92rem; }
+.own-order { display: grid; gap: 12px; }
+.own-order__head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: center; }
+.own-order__items { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.own-order__items li { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; }
+.own-order__actions { padding-top: 4px; }
+.own-menu .thumb { width: 44px; height: 44px; }
+.own-s { font-size: 0.85em; }
+.own-img__row { display: grid; grid-template-columns: 150px 1fr; gap: 16px; align-items: start; }
+.own-img__preview { border-radius: var(--r-md); overflow: hidden; border: 1px solid var(--line); }
+.own-img label.btn { cursor: pointer; width: fit-content; }
+.own-hours { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.own-hours li { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.own-hours__day { width: 100px; font-weight: 600; }
+.own-hours .input { width: auto; padding: 7px 10px; }
+.own-score { display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px; }
+.own-score strong { font-family: var(--font-display); font-size: 2.6rem; }
+.own-bars { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.own-bars li { display: grid; grid-template-columns: 44px 1fr 32px; gap: 10px; align-items: center; font-size: 0.9rem; }
+.own-bar { height: 10px; background: var(--paper-2); border-radius: 5px; overflow: hidden; }
+.own-bar i { display: block; height: 100%; background: #f5a524; border-radius: 5px; }
+@media (max-width: 560px) {
+  .own-img__row { grid-template-columns: 1fr; }
+  .own-hours__day { width: 100%; }
+  .own-order__items li { grid-template-columns: auto 1fr; }
+  .own-order__items li .muted { grid-column: 2; }
+}

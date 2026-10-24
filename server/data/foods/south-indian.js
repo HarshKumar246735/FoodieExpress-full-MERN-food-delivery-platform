@@ -1,0 +1,27 @@
+'use strict';
+const SI = 'south-indian-express', SG = 'spice-garden', SF = 'street-food-hub';
+module.exports = [
+  ['Masala Dosa', 129, 0, 'V', 15, SI, 'Crisp rice-lentil crepe filled with spiced potato.', 'rice, urad dal, potato, onion, mustard seeds'],
+  ['Plain Dosa', 99, 0, 'V', 12, SI, 'Thin, crisp golden dosa with sambar and chutneys.', 'rice, urad dal, ghee'],
+  ['Mysore Masala Dosa', 149, 0, 'V', 16, SI, 'Dosa spread with red chilli chutney and potato filling.', 'rice, urad dal, red chutney, potato'],
+  ['Rava Dosa', 139, 0, 'V', 15, SI, 'Lacy, crispy semolina dosa.', 'semolina, rice flour, cumin, green chilli'],
+  ['Onion Rava Dosa', 149, 119, 'V', 15, SI, 'Rava dosa studded with onion and green chilli.', 'semolina, onion, green chilli, curry leaf'],
+  ['Paneer Dosa', 169, 0, 'V', 17, SI, 'Dosa stuffed with spiced crumbled paneer.', 'rice, urad dal, paneer, onion'],
+  ['Set Dosa', 119, 0, 'V', 14, SI, 'Three soft, spongy dosas served with vegetable sagu.', 'rice, urad dal, poha, vegetable sagu'],
+  ['Idli Sambar', 89, 0, 'V', 10, SI, 'Two steamed rice-lentil cakes with sambar and chutney.', 'rice, urad dal, toor dal, sambar powder'],
+  ['Mini Idli Sambar', 99, 0, 'V', 10, SI, 'Bite-sized idlis soaked in hot sambar.', 'rice, urad dal, toor dal, vegetables'],
+  ['Medu Vada', 89, 0, 'V', 12, SI, 'Crisp doughnut-shaped fritters of urad dal.', 'urad dal, curry leaf, black pepper, ginger'],
+  ['Sambar Vada', 99, 0, 'V', 12, SI, 'Medu vada dunked in hot sambar.', 'urad dal, sambar, coconut chutney'],
+  ['Onion Uttapam', 129, 0, 'V', 15, SI, 'Thick savoury pancake topped with onion.', 'rice, urad dal, onion, green chilli'],
+  ['Tomato Uttapam', 129, 0, 'V', 15, SI, 'Soft pancake topped with tomato and coriander.', 'rice, urad dal, tomato, coriander'],
+  ['Ven Pongal', 109, 0, 'V', 15, SI, 'Creamy rice and moong dal with pepper and ghee.', 'rice, moong dal, black pepper, cumin, ghee'],
+  ['Rava Upma', 89, 0, 'V', 12, SI, 'Semolina cooked with vegetables and mustard seeds.', 'semolina, onion, carrot, mustard seeds, curry leaf'],
+  ['Lemon Rice', 109, 0, 'V', 12, SI, 'Tangy rice tempered with peanuts and curry leaf.', 'rice, lemon, peanuts, mustard seeds, turmeric'],
+  ['Curd Rice', 99, 0, 'V', 10, SI, 'Cooling rice and yoghurt with pomegranate.', 'rice, curd, mustard seeds, pomegranate'],
+  ['Bisi Bele Bath', 139, 0, 'V', 18, SI, 'Karnataka-style spiced rice, lentils and vegetables.', 'rice, toor dal, vegetables, bisi bele bath masala'],
+  ['Ghee Podi Idli', 119, 0, 'V', 12, SI, 'Idlis tossed in ghee and spicy gunpowder.', 'idli, ghee, gunpowder, sesame oil'],
+  ['Rasam Rice', 109, 0, 'V', 12, SI, 'Rice mixed with peppery tamarind rasam.', 'rice, tamarind, tomato, black pepper, cumin'],
+  ['Kerala Parotta with Veg Kurma', 149, 0, 'V', 18, SG, 'Flaky layered parotta with coconut vegetable kurma.', 'refined flour, vegetables, coconut, fennel'],
+  ['Chicken Chettinad', 299, 0, 'N', 30, SG, 'Fiery Chettinad chicken with freshly roasted spices.', 'chicken, black pepper, star anise, coconut, curry leaf'],
+  ['Egg Dosa', 139, 0, 'N', 14, SI, 'Crisp dosa topped with a beaten egg and pepper.', 'rice, urad dal, egg, black pepper'],
+];

@@ -1,0 +1,12 @@
+.pay-result { max-width: 980px; }
+.pay-result__hero { text-align: center; padding: 36px 20px; border-radius: var(--r-lg); margin-bottom: 24px; }
+.pay-result__hero--ok { background: var(--green-soft); } .pay-result__hero--bad { background: var(--red-soft); }
+.pay-result__hero--ok .pay-result__icon { color: var(--green); } .pay-result__hero--bad .pay-result__icon { color: var(--red); }
+.pay-result__icon { display: inline-block; animation: pop .5s cubic-bezier(.2,1.4,.4,1); }
+@keyframes pop { from { transform: scale(.3); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+.pay-result__grid { display: grid; grid-template-columns: 1fr 340px; gap: 24px; align-items: start; }
+.pay-result__actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 24px; }
+.pay-items { list-style: none; margin: 0; padding: 0; }
+.pay-items li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--paper-2); }
+.pay-support { text-align: center; }
+@media (max-width: 800px) { .pay-result__grid { grid-template-columns: 1fr; } }

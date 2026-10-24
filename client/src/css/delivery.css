@@ -1,0 +1,16 @@
+.dv-status { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+.dv-status p { margin: 0; }
+.dv-job__info { display: grid; gap: 10px; margin-bottom: 12px; }
+.dv-line { display: flex; gap: 10px; align-items: flex-start; }
+.dv-line svg { margin-top: 3px; color: var(--brand-dark); flex: none; }
+.dv-line a { color: var(--brand-dark); font-weight: 600; }
+.dv-cash { color: var(--amber); }
+.dv-items { margin: 0; font-size: 0.88rem; }
+.dv-help { margin: 10px 0; }
+.dv-steps { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; padding: 0; margin: 0 0 16px; }
+.dv-step { text-align: center; font-size: 0.8rem; font-weight: 600; padding: 8px 4px; border-radius: 10px; background: var(--paper-2); color: var(--ink-3); }
+.dv-step.is-done { background: var(--green-soft); color: var(--green); }
+.dv-step.is-current { background: var(--brand); color: #fff; }
+.dv-active .rmap { margin: 12px 0; }
+.panel .rmap { margin: 12px 0; }
+@media (max-width: 480px) { .dv-steps { grid-template-columns: repeat(2, 1fr); } }
