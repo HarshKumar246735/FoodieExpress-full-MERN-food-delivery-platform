@@ -1,8 +1,12 @@
 # FoodieExpress 🍔
+LIVE DEMO- https://foodie-express-full-mern-food-deliv.vercel.app/
+<img width="1672" height="917" alt="image" src="https://github.com/user-attachments/assets/094849f2-9a39-4663-85eb-ed5770902854" />
 
 FoodieExpress is a full-stack food delivery application built using the MERN stack.
 
 ## Features
+<img width="1548" height="927" alt="image" src="https://github.com/user-attachments/assets/8960df4f-e859-40fb-8c98-82622649ea19" />
+
 
 * Customer signup and login
 * Browse restaurants and food items
