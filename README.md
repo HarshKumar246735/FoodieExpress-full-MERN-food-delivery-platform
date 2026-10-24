@@ -114,7 +114,6 @@ Configure the environment variables and API URLs before deploying.
 FoodieExpress/
 ├── client/       # React frontend
 ├── server/       # Express backend
-├── tools/        # Optional code-checking scripts
 ├── .env.example
 ├── render.yaml
 └── README.md
